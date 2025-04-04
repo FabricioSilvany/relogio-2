@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(rgb(33, 128, 252),rgba(255, 115, 0, 0.849));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central{
+    width: 550px;
+    border: 1px, solid white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.saudacao{
+    width: 550px;
+    height: 100px;
+    border: 1px, solid white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.saudacao p{
+    font-size: 30px;
+}
+
+.saudacao div span{
+    font-size: 30px;
+}
+
+.central div{
+    background: black;
+    color: white;
+    font-size: 80px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.central span{
+    font-size: 80px;
+    padding: 5px;
+}
+
+.dia{
+    background: linear-gradient(orange, red);
+}
+
+.noite{
+    background: linear-gradient(darkblue, black);
+}
